@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"tablet.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/_config.scss","../scss/tablet.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACPJ;EACI;EACA;;;AAGJ;EACI;EACA;;AAEA;EACI;EACA;;;AAKR;EACI;EACA;;AAUc;AAAA;EACE;EACA;;AAGF;AAAA;EACE;;AAKR;EACI;;AAKI;EACI;EACA;;;AAQxB;EACI;EACA;;AAEA;EACI;;AAEA;EACI;;AAGJ;EACI","file":"tablet.css"}

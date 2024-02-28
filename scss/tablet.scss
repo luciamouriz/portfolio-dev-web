@@ -21,12 +21,39 @@
     grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 130px repeat(7, 1fr);
 
+
     .swiper-projects {
         .swiper-slide {
-            min-height: 300px;
+            .links {
+        
+                .link01,
+                .link02 {
+        
+                  img {
+                    width: 40%;
+                    height: 40%;
+                  }
+        
+                  &:hover {
+                    filter: invert(0.8) sepia(0.6) hue-rotate(229deg) saturate(10);
+                  }
+                }
+        
+              }
+            img {
+                height: 90%;
+            }
+
+            .slide-text {
+                .language {
+                    img {
+                        top: 30%;
+                        width: 35%;
+                    }
+                }
+            }
         }
     }
-
 }
 
 .contact {

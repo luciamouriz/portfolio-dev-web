@@ -2,8 +2,8 @@
   --primary-color: #FF2AC3;
   --primary-dark-color: #ca1f9a;
   --primary-active-color: #7b135d;
-  --secondary-color: #2D2F5E;
-  --secondary-light-color: #37396D;
+  --secondary-color: #3e3f67;
+  --secondary-light-color: #4d4e81;
   --secondary-dark-color: #585858;
   --acent-color: #29D7CC;
   --acent-hover-color: #21b0a6;
@@ -29,8 +29,21 @@
   grid-template-columns: 100px 1fr 100px;
   grid-template-rows: 130px repeat(7, 1fr);
 }
-.projects .swiper-projects .swiper-slide {
-  min-height: 300px;
+.projects .swiper-projects .swiper-slide .links .link01 img,
+.projects .swiper-projects .swiper-slide .links .link02 img {
+  width: 40%;
+  height: 40%;
+}
+.projects .swiper-projects .swiper-slide .links .link01:hover,
+.projects .swiper-projects .swiper-slide .links .link02:hover {
+  filter: invert(0.8) sepia(0.6) hue-rotate(229deg) saturate(10);
+}
+.projects .swiper-projects .swiper-slide img {
+  height: 90%;
+}
+.projects .swiper-projects .swiper-slide .slide-text .language img {
+  top: 30%;
+  width: 35%;
 }
 
 .contact {
@@ -46,3 +59,5 @@
 .contact form label {
   gap: 0.5em;
 }
+
+/*# sourceMappingURL=tablet.css.map */

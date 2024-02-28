@@ -16,9 +16,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: start;
 
-        ul{
+        ul {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
@@ -27,61 +27,63 @@ header {
                 padding: 0 15px 0 15px;
                 font-size: 3rem;
                 list-style: none;
-                background-color: var(--primary-color);
+               /*  background-color: var(--primary-color); */
                 border-radius: 0.3rem;
+
                 &:active {
                     background-color: var(--primary-active-color);
                 }
             }
         }
-        
+
     }
 
     nav.show {
         visibility: visible;
     }
+
     .container-header {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-    
+
         .logo {
-            width: calc(3em + 6vw);
+            width: calc(3em + 5vw);
             margin-left: 1em;
         }
-    
+
         .menu {
-    
+
             display: flex;
             flex-direction: column;
-            gap: calc(0.3em + 0.8vw);
+            gap: calc(0.3em + 0.7vw);
             margin-right: 1em;
             z-index: 4;
-    
+
             span {
                 transition: 0.5s;
                 border-radius: 0.5em;
-                width: calc(2em + 3vw);
-                height: calc(0.2em + 0.1vw);
+                width: calc(2em + 1vw);
+                height: calc(0.1em + 0.2vw);
                 background-color: var(--primary-color);
             }
-    
+
             &.close span {
                 opacity: 1;
                 transform: rotate(45deg) translate(5px, 5px);
                 background: var(--acent-color);
             }
-    
+
             &.close span:nth-child(2) {
                 transform: rotate(-45deg) translate(5px, -5px);
             }
-    
+
             &.close span:nth-child(3) {
                 display: none;
             }
         }
-    
+
     }
 
 }
